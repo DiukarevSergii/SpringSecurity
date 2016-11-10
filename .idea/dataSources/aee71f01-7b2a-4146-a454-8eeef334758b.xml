@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - testsec@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="testsec">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="apartmentsdb"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="mangodb"/>
+    <schema id="5" name="menudb"/>
+    <schema id="6" name="mydb"/>
+    <schema id="7" name="mydb44"/>
+    <schema id="8" name="mysql"/>
+    <schema id="9" name="orderdb"/>
+    <schema id="10" name="performance_schema"/>
+    <schema id="11" name="prog"/>
+    <schema id="12" name="sakila"/>
+    <schema id="13" name="sys"/>
+    <schema id="14" name="testdb"/>
+    <schema id="15" name="testdb2"/>
+    <schema id="16" name="testdb3"/>
+    <schema id="17" name="testdb4"/>
+    <schema id="18" name="testmangodb"/>
+    <schema id="19" name="testproc"/>
+    <schema id="20" name="testsec2"/>
+    <schema id="21" name="tutorial"/>
+    <schema id="22" name="world"/>
+    <table id="23" parent="1" name="customuser"/>
+    <column id="24" parent="23" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="25" parent="23" name="email">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="26" parent="23" name="login">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="27" parent="23" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="28" parent="23" name="phone">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="29" parent="23" name="role">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="30" parent="23" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
